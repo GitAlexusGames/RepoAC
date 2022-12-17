@@ -46,3 +46,11 @@ The following packages were updated:
   com.unity.timeline from version 1.6.2 to 1.6.4
   com.unity.xr.legacyinputhelpers from version 2.1.8 to 2.1.10
   com.unity.visualscripting from version 1.7.7 to 1.7.8
+
+=== Sat Dec 17 16:29:23 2022
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.cinemachine@2.3.4
