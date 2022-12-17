@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.file filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.Runtime/.../lld filter=lfs diff=lfs merge=lfs -text
+*.lld filter=lfs diff=lfs merge=lfs -text
+*.cs filter=lfs diff=lfs merge=lfs -text
+*.Runtime filter=lfs diff=lfs merge=lfs -text
+*.PackageCache/com.unity.burst@1.7.3/Runtime/.../lld filter=lfs diff=lfs merge=lfs -text
+*lld filter=lfs diff=lfs merge=lfs -text
