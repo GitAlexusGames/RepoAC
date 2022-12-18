@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/EditorTools/FlipTool.cs" />
@@ -99,8 +99,8 @@
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/TileDragAndDrop.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintingState.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/EditorTools/BrushToolsAttribute.cs" />
-    <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteWindow.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/TileDragAndDropManager.cs" />
+    <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteWindow.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaletteAddPopup.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/SceneViewOpenTilePaletteHelper.cs" />
   </ItemGroup>

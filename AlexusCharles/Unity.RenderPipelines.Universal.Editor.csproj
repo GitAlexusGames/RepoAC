@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/Converter/InitializeConverterContext.cs" />
@@ -85,8 +85,8 @@
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/Converter/Converters/RenderSettingsConverter.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/2D/Converter/URP2DConverterUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/2D/ShapeEditor/GUIFramework/GUIAction.cs" />
-    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/GlobalSettings/UniversalGlobalSettingsWindow.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/2D/ShapeEditor/EditorTool/PathComponentEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/GlobalSettings/UniversalGlobalSettingsWindow.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/ShaderGUI/BaseShaderGUI.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/2D/ShapeEditor/Shapes/ShapeExtensions.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/AssetPostProcessors/AutodeskInteractiveMaterialImport.cs" />

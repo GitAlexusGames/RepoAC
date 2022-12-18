@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Actions/Menus/MenuItemActionBase.cs" />
@@ -171,10 +171,10 @@
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineWindow_PlayRange.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/AnimationTrackKeyDataSource.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/Drawers/AnimationTrackDrawer.cs" />
-    <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/Scopes/PropertyScope.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/Sequence/MarkerHeaderTrackManipulator.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Localization/Localization.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineWindow_TimeArea.cs" />
+    <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/Scopes/PropertyScope.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/AnimatedParameterCache.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/FileUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/State/WindowState.cs" />
@@ -289,8 +289,8 @@
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/DirectorNamedColor.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Signals/SignalEventDrawer.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Actions/IMenuChecked.cs" />
-    <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Actions/IAction.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/Drawers/ClipDrawer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Actions/IAction.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/TrackModifier.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Items/ITimelineItem.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/Sequence/TrimClip.cs" />

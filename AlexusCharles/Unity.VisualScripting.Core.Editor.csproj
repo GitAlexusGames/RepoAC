@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Utilities/EditorTimeUtility.cs" />
@@ -108,8 +108,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Migrations/Migration_1_0_5_to_1_0_6.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Acknowledgements/Acknowledgement_SQLite.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Assignment/AssignsAttribute.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/InspectorProvider.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Widgets/Widget.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/InspectorProvider.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Canvases/IGraphContextExtension.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Reflection/TypeInspector.cs" />
@@ -177,8 +177,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Primitives/CharInspector.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/LudiqGUI.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugins/PluginManifest.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Fonts/FontVariant.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Descriptors/Descriptor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Fonts/FontVariant.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Utilities/MD4.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Platforms/PropertyInfoStubWriter.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Special/NullableInspector.cs" />
@@ -344,8 +344,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Analysis/IAnalysis.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqGraphs/Changelog_1_0_0.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/UpdateWizard/UpdateBackupPage.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugins/IPluginLinked.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Description/MacroDescription.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugins/IPluginLinked.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Unity/RayInspector.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Reflection/MemberInspector.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Widgets/GraphElementWidget.cs" />
