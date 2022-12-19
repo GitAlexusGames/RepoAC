@@ -381,7 +381,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Asset Unlock - 3D Prototyping/Scripts/cameraFollow.cs"
+"Assets/Asset Unlock - 3D Prototyping/Scripts/gravitySpeed.cs"
 "Assets/Asset Unlock - 3D Prototyping/Scripts/planetmotion.cs"
 "Assets/Asset Unlock - 3D Prototyping/Scripts/ThirdPersonController.cs"
 "Assets/Scripts/SimpleCameraController.cs"
